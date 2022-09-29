@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 driver=webdriver.Chrome(executable_path="D:\Downloads\chromedriver_win32 (2)\chromedriver.exe")
-driver.get("https://www.tutorialspoint.com/about/about_careers.htm")
+driver.get("https://www.tutorialspoint.com/about/about_careers.html")
 #Identify elements
 l=driver.find_element(By.LINK_TEXT,"Team")
 l.click()
